@@ -24,3 +24,40 @@ Debug.Log("组件开始执行");
 
 ### 1.1.3 修改物体位置
 
+实际上就是修改Transform组件的数据。
+
+#### 两种方法
+
+* 使用Translate()函数
+
+```csharp
+transform.Translate(1.5f,0,0);//沿着自身右侧方向前进1.5个单位
+```
+
+* 直接指定新的位置
+
+```csharp
+transform.position=new Vector3(1,4,6);
+```
+
+#### 连续位移动画
+
+让物体每帧都移动很小的距离。
+
+把改变位置的代码写在Update()函数里。
+
+```csharp
+void Update(){
+    transform.Translate(0,0,0.3f);
+    //or
+    transform.position+=new Vector3(0,0,0.3f);
+```
+
+#### 保证不同主机运行距离都相同
+
+```
+void Update(){
+    transform.Translate(0,0,0.3f*Time.deltaTime);
+    //or
+    transform.position+=new Vector3(0,0,0.3f*Time.deltaTime);
+```
