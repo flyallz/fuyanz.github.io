@@ -6,15 +6,15 @@ coverY: 0
 
 ## 1.1.1 Start和Update事件
 
-Start()函数在游戏开始运行的时候执行一次，特别适合进行组件初始化。
+**Start()**函数在游戏开始运行的时候执行一次，特别适合进行组件初始化。
 
-Update()函数每帧都会执行，在不同设备上更新的频率有所区别。
+**Update()**函数每帧都会执行，在不同设备上更新的频率有所区别。
 
-Start()在组件开始运行调用。
+<mark style="color:blue;">Start()在组件开始运行调用。</mark>
 
-Update()更新该组件调用。
+<mark style="color:blue;">Update()更新该组件调用。</mark>
 
-Debug.Log()用于向控制台输出信息。
+**Debug.Log()**用于向控制台输出信息。
 
 ```csharp
 Debug.Log("组件开始执行");
@@ -72,4 +72,4 @@ void Update(){
     }
 ```
 
-* Input.GetAxis()函数的返回值是一个float类型。取值范围为-1\~1。
+* **Input.GetAxis()**函数的返回值是一个float类型。取值范围为-1\~1。
