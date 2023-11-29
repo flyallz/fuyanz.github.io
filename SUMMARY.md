@@ -8,4 +8,4 @@
 * [🦊 2.3 脚本的生命周期](2.3-jiao-ben-de-sheng-ming-zhou-qi.md)
 * [🍎 2.4协程入门](2.4-xie-cheng-ru-men.md)
 * [🍏 3.1物理系统](3.1-wu-li-xi-tong.md)
-* [3.2物理系统脚本编程](3.2-wu-li-xi-tong-jiao-ben-bian-cheng.md)
+* [😂 3.2物理系统脚本编程](3.2-wu-li-xi-tong-jiao-ben-bian-cheng.md)
